@@ -77,6 +77,51 @@ int main() {
       //temporarily makes this only loop once
       works = 0;
 
+      switch (point) {
+        case 54:
+          s.push(x);
+          s.push(y);
+          x = 4;
+          character = test[++iterator];
+          break;
+        case 55:
+          s.push(x);
+          s.push(y);
+          x = 5;
+          character = test[++iterator];
+          break;
+        case 56:
+          s.push(x);
+          s.push(y);
+          x = 6;
+          character = test[++iterator];
+          break;
+        case 57:
+          s.push(x);
+          s.push(y);
+          x = 7;
+          character = test[++iterator];
+          break;
+        case 58:
+          s.push(x);
+          s.push(y);
+          x = 8;
+          character = test[++iterator];
+          break;
+        case 59:
+          s.push(x);
+          s.push(y);
+          x = 9;
+          character = test[++iterator];
+          break;
+        case 515:
+          s.push(x);
+          s.push(y);
+          x = 15;
+          character = test[++iterator];
+          break;
+      }
+
     }
 
   return 0;
